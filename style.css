@@ -20,21 +20,21 @@ body{
   font-size: 16px;
   font-family: var(--ff-primary);
   font-weight: 400;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  
   background: url(./images/bg-mobile.svg),var(--Violet);
   background-repeat: no-repeat;
   background-position: right left;
   background-size: contain;
   color: #fff ;
+  overflow: hidden;
   
 }
 .container{
   max-width: 1200px;
-  margin: 3rem 2.5rem;
+  min-height: 100vh;
   animation:opacity 2s ease-in-out;
+  margin: 4rem auto;
+  
 }
 
 img.logo{
@@ -44,7 +44,7 @@ img{
   width: 100%;
 }
 .center-container{
-  padding: 4rem 0;
+  padding: 6rem 0;
   gap:4rem;
   
 }
@@ -127,7 +127,7 @@ img{
     background-position: center;
     background-size: cover;
   }
-  .center-container .container-img{
+  .container-img,.container-content{
     width: 50%;
     height: 100%;
   }
