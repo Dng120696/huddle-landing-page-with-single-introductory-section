@@ -135,9 +135,7 @@ img{
     flex-direction: row;
     align-items: center;
   }
-  .center-container{
-    gap: 2rem;
-  }
+
   .center-container .container-content{
     text-align: left;
   }
